@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-08-06T16:29:59 BST" name="Suite" finished-at="2020-08-06T16:30:30 BST" duration-ms="31415">
+    <groups>
+    </groups>
+    <test started-at="2020-08-06T16:29:59 BST" name="Test" finished-at="2020-08-06T16:30:30 BST" duration-ms="31415">
+      <class name="nestOne.javaMaven.homepageqa">
+        <test-method is-config="true" signature="config()[pri:0, instance:nestOne.javaMaven.homepageqa@3b2cf7ab]" started-at="2020-08-06T16:29:59 BST" name="config" finished-at="2020-08-06T16:29:59 BST" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method is-config="true" signature="geturl()[pri:0, instance:nestOne.javaMaven.homepageqa@3b2cf7ab]" started-at="2020-08-06T16:29:59 BST" name="geturl" finished-at="2020-08-06T16:30:04 BST" duration-ms="4889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- geturl -->
+        <test-method signature="basepagenavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:nestOne.javaMaven.homepageqa@3b2cf7ab]" started-at="2020-08-06T16:30:17 BST" name="basepagenavigation" data-provider="getData" finished-at="2020-08-06T16:30:24 BST" duration-ms="7617" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sourovbm21@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sourovbm21]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[restricted]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+        <test-method signature="basepagenavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:nestOne.javaMaven.homepageqa@3b2cf7ab]" started-at="2020-08-06T16:30:24 BST" name="basepagenavigation" data-provider="getData" finished-at="2020-08-06T16:30:28 BST" duration-ms="4024" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sorrr@gmali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1233]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[nonrestricted]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+      </class> <!-- nestOne.javaMaven.homepageqa -->
+      <class name="nestOne.javaMaven.validateNavigationBar">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:nestOne.javaMaven.validateNavigationBar@2aa5fe93]" started-at="2020-08-06T16:30:04 BST" name="initialize" finished-at="2020-08-06T16:30:10 BST" duration-ms="6242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basepagenavigation()[pri:0, instance:nestOne.javaMaven.validateNavigationBar@2aa5fe93]" started-at="2020-08-06T16:30:28 BST" name="basepagenavigation" finished-at="2020-08-06T16:30:30 BST" duration-ms="1140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:nestOne.javaMaven.validateNavigationBar@2aa5fe93]" started-at="2020-08-06T16:30:30 BST" name="closedriver" finished-at="2020-08-06T16:30:30 BST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+      </class> <!-- nestOne.javaMaven.validateNavigationBar -->
+      <class name="nestOne.javaMaven.validateTitle">
+        <test-method is-config="true" signature="geturl()[pri:0, instance:nestOne.javaMaven.validateTitle@3a079870]" started-at="2020-08-06T16:30:10 BST" name="geturl" finished-at="2020-08-06T16:30:16 BST" duration-ms="5586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- geturl -->
+        <test-method signature="basepagenavigation()[pri:0, instance:nestOne.javaMaven.validateTitle@3a079870]" started-at="2020-08-06T16:30:16 BST" name="basepagenavigation" finished-at="2020-08-06T16:30:17 BST" duration-ms="932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:nestOne.javaMaven.validateTitle@3a079870]" started-at="2020-08-06T16:30:30 BST" name="closedriver" finished-at="2020-08-06T16:30:30 BST" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+      </class> <!-- nestOne.javaMaven.validateTitle -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

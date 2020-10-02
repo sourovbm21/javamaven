@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-09-01T17:30:01 BST" name="Default suite" finished-at="2020-09-01T17:30:31 BST" duration-ms="30275">
+    <groups>
+    </groups>
+    <test started-at="2020-09-01T17:30:01 BST" name="Default test" finished-at="2020-09-01T17:30:31 BST" duration-ms="30275">
+      <class name="javaMaven.secondTestRun">
+        <test-method is-config="true" signature="basepagesetup()[pri:0, instance:javaMaven.secondTestRun@4df50bcc]" started-at="2020-09-01T17:30:01 BST" name="basepagesetup" finished-at="2020-09-01T17:30:30 BST" duration-ms="29099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagesetup -->
+        <test-method signature="basepage()[pri:0, instance:javaMaven.secondTestRun@4df50bcc]" started-at="2020-09-01T17:30:30 BST" name="basepage" finished-at="2020-09-01T17:30:30 BST" duration-ms="656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepage -->
+        <test-method signature="takeScreenShot()[pri:0, instance:javaMaven.secondTestRun@4df50bcc]" started-at="2020-09-01T17:30:30 BST" name="takeScreenShot" finished-at="2020-09-01T17:30:31 BST" duration-ms="434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method signature="validationlogo()[pri:0, instance:javaMaven.secondTestRun@4df50bcc]" started-at="2020-09-01T17:30:31 BST" name="validationlogo" finished-at="2020-09-01T17:30:31 BST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationlogo -->
+      </class> <!-- javaMaven.secondTestRun -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

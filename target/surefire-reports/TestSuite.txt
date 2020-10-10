@@ -1,4 +1,14 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 32.225 s - in TestSuite
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 10.814 s <<< FAILURE! - in TestSuite
+extentReportNaveen.extendReportClass.suggestion  Time elapsed: 0.381 s  <<< FAILURE!
+java.lang.AssertionError: expected [unitedKingdom] but found []
+	at extentReportNaveen.extendReportClass.suggestion(extendReportClass.java:102)
+
+extentReportNaveen.extendReportClass.tearDown  Time elapsed: 0.382 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Can inject only one of <ITestContext, XmlTest> into a @AfterClass annotated tearDown.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+

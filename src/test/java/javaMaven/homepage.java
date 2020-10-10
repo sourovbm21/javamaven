@@ -1,11 +1,13 @@
 package javaMaven;
 
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
@@ -15,7 +17,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.reporter.ExtentReporter;
+
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 import pageObject.landingpage;
@@ -25,6 +27,8 @@ import resources.base;
 import resources.excelData;
 
 public class homepage extends base {
+	
+	Logger log=Logger.getLogger(homepage.class);
 	
 	static ExtentReports extent;
 	@BeforeTest
@@ -67,14 +71,16 @@ public class homepage extends base {
 	@Test(dataProvider="getTestdata")
 	public void  bassepage(String email,String password) throws IOException {
 	
-		
+	
 	
 	landingpage ln=new landingpage(driver);
 	ln.login().click();
 	
 		loginPage lp=new loginPage(driver);
 		lp.getemail().sendKeys(email);
+		log.info("sending email");
 		lp.getpassword().sendKeys(password);
+		log.info("sending password");
 		lp.getloginbutton().click();
 	
 		

@@ -1,91 +1,141 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-08-06T16:29:59 BST" name="Suite" finished-at="2020-08-06T16:30:30 BST" duration-ms="31415">
+  <suite started-at="2020-10-10T22:22:20 BST" name="Suite" finished-at="2020-10-10T22:22:29 BST" duration-ms="9311">
     <groups>
     </groups>
-    <test started-at="2020-08-06T16:29:59 BST" name="Test" finished-at="2020-08-06T16:30:30 BST" duration-ms="31415">
-      <class name="nestOne.javaMaven.homepageqa">
-        <test-method is-config="true" signature="config()[pri:0, instance:nestOne.javaMaven.homepageqa@3b2cf7ab]" started-at="2020-08-06T16:29:59 BST" name="config" finished-at="2020-08-06T16:29:59 BST" duration-ms="305" status="PASS">
+    <test started-at="2020-10-10T22:22:20 BST" name="entent reportgenerating" finished-at="2020-10-10T22:22:29 BST" duration-ms="9311">
+      <class name="extentReportNaveen.extendReportClass">
+        <test-method is-config="true" signature="setEntentReport()[pri:0, instance:extentReportNaveen.extendReportClass@6156496]" started-at="2020-10-10T22:22:20 BST" name="setEntentReport" finished-at="2020-10-10T22:22:20 BST" duration-ms="346" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- config -->
-        <test-method is-config="true" signature="geturl()[pri:0, instance:nestOne.javaMaven.homepageqa@3b2cf7ab]" started-at="2020-08-06T16:29:59 BST" name="geturl" finished-at="2020-08-06T16:30:04 BST" duration-ms="4889" status="PASS">
+        </test-method> <!-- setEntentReport -->
+        <test-method is-config="true" signature="initialdriver()[pri:0, instance:extentReportNaveen.extendReportClass@6156496]" started-at="2020-10-10T22:22:20 BST" name="initialdriver" finished-at="2020-10-10T22:22:28 BST" duration-ms="7499" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- geturl -->
-        <test-method signature="basepagenavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:nestOne.javaMaven.homepageqa@3b2cf7ab]" started-at="2020-08-06T16:30:17 BST" name="basepagenavigation" data-provider="getData" finished-at="2020-08-06T16:30:24 BST" duration-ms="7617" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[sourovbm21@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Sourovbm21]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[restricted]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- initialdriver -->
+        <test-method is-config="true" signature="printing()[pri:0, instance:extentReportNaveen.extendReportClass@6156496]" started-at="2020-10-10T22:22:28 BST" name="printing" finished-at="2020-10-10T22:22:28 BST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- basepagenavigation -->
-        <test-method signature="basepagenavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:nestOne.javaMaven.homepageqa@3b2cf7ab]" started-at="2020-08-06T16:30:24 BST" name="basepagenavigation" data-provider="getData" finished-at="2020-08-06T16:30:28 BST" duration-ms="4024" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[sorrr@gmali]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1233]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[nonrestricted]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- printing -->
+        <test-method signature="getTitle()[pri:0, instance:extentReportNaveen.extendReportClass@6156496]" started-at="2020-10-10T22:22:28 BST" name="getTitle" finished-at="2020-10-10T22:22:28 BST" duration-ms="174" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- basepagenavigation -->
-      </class> <!-- nestOne.javaMaven.homepageqa -->
-      <class name="nestOne.javaMaven.validateNavigationBar">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:nestOne.javaMaven.validateNavigationBar@2aa5fe93]" started-at="2020-08-06T16:30:04 BST" name="initialize" finished-at="2020-08-06T16:30:10 BST" duration-ms="6242" status="PASS">
+        </test-method> <!-- getTitle -->
+        <test-method is-config="true" signature="printing()[pri:0, instance:extentReportNaveen.extendReportClass@6156496]" started-at="2020-10-10T22:22:28 BST" name="printing" finished-at="2020-10-10T22:22:28 BST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method signature="basepagenavigation()[pri:0, instance:nestOne.javaMaven.validateNavigationBar@2aa5fe93]" started-at="2020-08-06T16:30:28 BST" name="basepagenavigation" finished-at="2020-08-06T16:30:30 BST" duration-ms="1140" status="PASS">
+        </test-method> <!-- printing -->
+        <test-method signature="getalert()[pri:0, instance:extentReportNaveen.extendReportClass@6156496]" started-at="2020-10-10T22:22:28 BST" name="getalert" finished-at="2020-10-10T22:22:29 BST" duration-ms="837" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- basepagenavigation -->
-        <test-method is-config="true" signature="closedriver()[pri:0, instance:nestOne.javaMaven.validateNavigationBar@2aa5fe93]" started-at="2020-08-06T16:30:30 BST" name="closedriver" finished-at="2020-08-06T16:30:30 BST" duration-ms="281" status="PASS">
+        </test-method> <!-- getalert -->
+        <test-method is-config="true" signature="printing()[pri:0, instance:extentReportNaveen.extendReportClass@6156496]" started-at="2020-10-10T22:22:29 BST" name="printing" finished-at="2020-10-10T22:22:29 BST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closedriver -->
-      </class> <!-- nestOne.javaMaven.validateNavigationBar -->
-      <class name="nestOne.javaMaven.validateTitle">
-        <test-method is-config="true" signature="geturl()[pri:0, instance:nestOne.javaMaven.validateTitle@3a079870]" started-at="2020-08-06T16:30:10 BST" name="geturl" finished-at="2020-08-06T16:30:16 BST" duration-ms="5586" status="PASS">
+        </test-method> <!-- printing -->
+        <test-method signature="suggestion()[pri:0, instance:extentReportNaveen.extendReportClass@6156496]" started-at="2020-10-10T22:22:29 BST" name="suggestion" finished-at="2020-10-10T22:22:29 BST" duration-ms="373" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [unitedKingdom] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [unitedKingdom] but found []
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at extentReportNaveen.extendReportClass.suggestion(extendReportClass.java:102)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- geturl -->
-        <test-method signature="basepagenavigation()[pri:0, instance:nestOne.javaMaven.validateTitle@3a079870]" started-at="2020-08-06T16:30:16 BST" name="basepagenavigation" finished-at="2020-08-06T16:30:17 BST" duration-ms="932" status="PASS">
+        </test-method> <!-- suggestion -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:extentReportNaveen.extendReportClass@6156496]" started-at="2020-10-10T22:22:29 BST" name="tearDown" finished-at="1970-01-01T01:00:00 GMT" duration-ms="-1602364949672" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest> into a @AfterClass annotated tearDown.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest> into a @AfterClass annotated tearDown.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:437)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:351)
+at org.testng.internal.Parameters.createParameters(Parameters.java:708)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:301)
+at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:217)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:130)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- basepagenavigation -->
-        <test-method is-config="true" signature="closedriver()[pri:0, instance:nestOne.javaMaven.validateTitle@3a079870]" started-at="2020-08-06T16:30:30 BST" name="closedriver" finished-at="2020-08-06T16:30:30 BST" duration-ms="310" status="PASS">
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="addReport()[pri:0, instance:extentReportNaveen.extendReportClass@6156496]" started-at="2020-10-10T22:22:29 BST" name="addReport" finished-at="1970-01-01T01:00:00 GMT" duration-ms="-1602364949675" status="SKIP">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closedriver -->
-      </class> <!-- nestOne.javaMaven.validateTitle -->
-    </test> <!-- Test -->
+        </test-method> <!-- addReport -->
+      </class> <!-- extentReportNaveen.extendReportClass -->
+    </test> <!-- entent reportgenerating -->
   </suite> <!-- Suite -->
 </testng-results>

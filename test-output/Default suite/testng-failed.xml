@@ -3,12 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="javaMaven.secondTestRun">
+      <class name="extentReportNaveen.extendReportClass">
         <methods>
-          <include name="basepage"/>
-          <include name="basepagesetup"/>
+          <include name="printing"/>
+          <include name="tearDown"/>
+          <include name="setEntentReport"/>
+          <include name="addReport"/>
+          <include name="initialdriver"/>
+          <include name="suggestion"/>
         </methods>
-      </class> <!-- javaMaven.secondTestRun -->
+      </class> <!-- extentReportNaveen.extendReportClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

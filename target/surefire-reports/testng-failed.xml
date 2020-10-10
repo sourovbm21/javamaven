@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="extentReportNaveen.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="entent reportgenerating(failed)" verbose="0">
+    <classes>
+      <class name="extentReportNaveen.extendReportClass">
+        <methods>
+          <include name="printing"/>
+          <include name="tearDown"/>
+          <include name="setEntentReport"/>
+          <include name="addReport"/>
+          <include name="initialdriver"/>
+          <include name="suggestion"/>
+        </methods>
+      </class> <!-- extentReportNaveen.extendReportClass -->
+    </classes>
+  </test> <!-- entent reportgenerating(failed) -->
+</suite> <!-- Failed suite [Suite] -->

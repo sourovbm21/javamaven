@@ -48,11 +48,18 @@ public class base {
 	
 		
 	}
-	public void getScreenshotPath(String testCaseName,WebDriver driver) throws IOException 
-	{
-		TakesScreenshot	ts=(TakesScreenshot)driver;
-		File source=ts.getScreenshotAs(OutputType.FILE);
-		String destinationFile=System.getProperty("user.dir")+"\\reports\\"+testCaseName+".png" ;
-		FileUtils.copyFile(source,new File(destinationFile));
+//	public void getScreenshotPath(String testCaseName,WebDriver driver) throws IOException 
+//	{
+//		TakesScreenshot	ts=(TakesScreenshot)driver;
+//		File source=ts.getScreenshotAs(OutputType.FILE);
+//		String destinationFile=System.getProperty("user.dir")+"\\reports\\"+testCaseName+".png" ;
+//		FileUtils.copyFile(source,new File(destinationFile));
+//	}
+	
+	
+	public  void failed () throws IOException {
+		
+		File srcFile=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		FileUtils.copyFile(srcFile, new File(" /Users/tohidur/Downloads/javaMaven/screenshots/testfailure.jpg"));
 	}
 }

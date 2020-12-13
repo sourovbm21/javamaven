@@ -13,6 +13,7 @@ public class landingpage {
 	
 	
 	public landingpage(WebDriver driver) {
+	
 		this.driver=driver;
 	}
 	

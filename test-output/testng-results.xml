@@ -2,40 +2,40 @@
 <testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-10-10T21:04:11 BST" name="Default suite" finished-at="2020-10-10T21:04:19 BST" duration-ms="7891">
+  <suite started-at="2020-10-11T13:51:50 BST" name="Default suite" finished-at="2020-10-11T13:51:59 BST" duration-ms="9252">
     <groups>
     </groups>
-    <test started-at="2020-10-10T21:04:11 BST" name="Default test" finished-at="2020-10-10T21:04:19 BST" duration-ms="7891">
+    <test started-at="2020-10-11T13:51:50 BST" name="Default test" finished-at="2020-10-11T13:51:59 BST" duration-ms="9252">
       <class name="extentReportNaveen.extendReportClass">
-        <test-method is-config="true" signature="setEntentReport()[pri:0, instance:extentReportNaveen.extendReportClass@778d1062]" started-at="2020-10-10T21:04:11 BST" name="setEntentReport" finished-at="2020-10-10T21:04:12 BST" duration-ms="305" status="PASS">
+        <test-method is-config="true" signature="setEntentReport()[pri:0, instance:extentReportNaveen.extendReportClass@778d1062]" started-at="2020-10-11T13:51:50 BST" name="setEntentReport" finished-at="2020-10-11T13:51:51 BST" duration-ms="534" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setEntentReport -->
-        <test-method is-config="true" signature="initialdriver()[pri:0, instance:extentReportNaveen.extendReportClass@778d1062]" started-at="2020-10-10T21:04:12 BST" name="initialdriver" finished-at="2020-10-10T21:04:18 BST" duration-ms="6120" status="PASS">
+        <test-method is-config="true" signature="initialdriver()[pri:0, instance:extentReportNaveen.extendReportClass@778d1062]" started-at="2020-10-11T13:51:51 BST" name="initialdriver" finished-at="2020-10-11T13:51:59 BST" duration-ms="8018" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialdriver -->
-        <test-method is-config="true" signature="printing()[pri:0, instance:extentReportNaveen.extendReportClass@778d1062]" started-at="2020-10-10T21:04:18 BST" name="printing" finished-at="2020-10-10T21:04:18 BST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="printing()[pri:0, instance:extentReportNaveen.extendReportClass@778d1062]" started-at="2020-10-11T13:51:59 BST" name="printing" finished-at="2020-10-11T13:51:59 BST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printing -->
-        <test-method signature="getTitle()[pri:0, instance:extentReportNaveen.extendReportClass@778d1062]" started-at="2020-10-10T21:04:18 BST" name="getTitle" finished-at="2020-10-10T21:04:18 BST" duration-ms="179" status="PASS">
+        <test-method signature="getTitle()[pri:0, instance:extentReportNaveen.extendReportClass@778d1062]" started-at="2020-10-11T13:51:59 BST" name="getTitle" finished-at="2020-10-11T13:51:59 BST" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTitle -->
-        <test-method is-config="true" signature="printing()[pri:0, instance:extentReportNaveen.extendReportClass@778d1062]" started-at="2020-10-10T21:04:18 BST" name="printing" finished-at="2020-10-10T21:04:18 BST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="printing()[pri:0, instance:extentReportNaveen.extendReportClass@778d1062]" started-at="2020-10-11T13:51:59 BST" name="printing" finished-at="2020-10-11T13:51:59 BST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printing -->
-        <test-method signature="getalert()[pri:0, instance:extentReportNaveen.extendReportClass@778d1062]" started-at="2020-10-10T21:04:18 BST" name="getalert" finished-at="2020-10-10T21:04:19 BST" duration-ms="845" status="PASS">
+        <test-method signature="getalert()[pri:0, instance:extentReportNaveen.extendReportClass@778d1062]" started-at="2020-10-11T13:51:59 BST" name="getalert" finished-at="2020-10-11T13:51:59 BST" duration-ms="342" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getalert -->
-        <test-method is-config="true" signature="printing()[pri:0, instance:extentReportNaveen.extendReportClass@778d1062]" started-at="2020-10-10T21:04:19 BST" name="printing" finished-at="2020-10-10T21:04:19 BST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="printing()[pri:0, instance:extentReportNaveen.extendReportClass@778d1062]" started-at="2020-10-11T13:51:59 BST" name="printing" finished-at="2020-10-11T13:51:59 BST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printing -->
-        <test-method signature="suggestion()[pri:0, instance:extentReportNaveen.extendReportClass@778d1062]" started-at="2020-10-10T21:04:19 BST" name="suggestion" finished-at="2020-10-10T21:04:19 BST" duration-ms="352" status="FAIL">
+        <test-method signature="suggestion()[pri:0, instance:extentReportNaveen.extendReportClass@778d1062]" started-at="2020-10-11T13:51:59 BST" name="suggestion" finished-at="2020-10-11T13:51:59 BST" duration-ms="268" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [unitedKingdom] but found []]]>
@@ -47,7 +47,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:136)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:575)
 at org.testng.Assert.assertEquals(Assert.java:585)
-at extentReportNaveen.extendReportClass.suggestion(extendReportClass.java:102)
+at extentReportNaveen.extendReportClass.suggestion(extendReportClass.java:105)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -82,7 +82,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suggestion -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:extentReportNaveen.extendReportClass@778d1062]" started-at="2020-10-10T21:04:19 BST" name="tearDown" finished-at="1970-01-01T01:00:00 GMT" duration-ms="-1602360259611" status="FAIL">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:extentReportNaveen.extendReportClass@778d1062]" started-at="2020-10-11T13:51:59 BST" name="tearDown" finished-at="1970-01-01T01:00:00 GMT" duration-ms="-1602420719759" status="FAIL">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -122,7 +122,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="addReport()[pri:0, instance:extentReportNaveen.extendReportClass@778d1062]" started-at="2020-10-10T21:04:19 BST" name="addReport" finished-at="1970-01-01T01:00:00 GMT" duration-ms="-1602360259622" status="SKIP">
+        <test-method is-config="true" signature="addReport()[pri:0, instance:extentReportNaveen.extendReportClass@778d1062]" started-at="2020-10-11T13:51:59 BST" name="addReport" finished-at="1970-01-01T01:00:00 GMT" duration-ms="-1602420719769" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addReport -->

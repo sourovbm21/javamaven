@@ -69,6 +69,7 @@ public class extendReportRahul {
 		File sourcefile=ts.getScreenshotAs(OutputType.FILE);
 		String destination=System.getProperty("user.dir"+"//picture//pic.png");
 		FileUtils.copyFile(sourcefile, new File(destination));
+		
 	}
 	
 	@BeforeTest

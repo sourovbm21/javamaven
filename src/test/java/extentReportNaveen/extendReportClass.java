@@ -10,6 +10,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
@@ -69,7 +70,9 @@ public class extendReportClass {
 	@BeforeClass
 	public static void initialdriver() {
 		System.setProperty("webdriver.chrome.driver","/Users/tohidur/Downloads/chromedriver");
-		 driver=new ChromeDriver();
+		ChromeOptions op=new ChromeOptions();
+		op.addArguments("--headless");
+		 driver=new ChromeDriver(op);
 		
 		driver.manage().timeouts().pageLoadTimeout(5,TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
